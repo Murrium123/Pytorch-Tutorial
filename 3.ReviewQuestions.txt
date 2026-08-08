@@ -1,1 +1,9 @@
-1. 
+1. What is the difference between torch.cat and torch.stack?
+
+2. If you have a tensor with 20 elements, which of these shapes are valid for reshaping: (4, 5), (2, 10), (3, 7)?
+
+3. How do you select only the third column of a 2D tensor named my_tensor?
+
+4. In the operation tensor.view(5, -1), what does the -1 represent?
+
+5. What happens to the memory when you convert a CPU tensor to a NumPy array using.numpy()?
