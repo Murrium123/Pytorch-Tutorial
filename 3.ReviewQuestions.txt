@@ -1,6 +1,7 @@
 1. What is the difference between torch.cat and torch.stack?
 
 2. If you have a tensor with 20 elements, which of these shapes are valid for reshaping: (4, 5), (2, 10), (3, 7)?
+(4, 5)
 
 3. How do you select only the third column of a 2D tensor named my_tensor?
 
