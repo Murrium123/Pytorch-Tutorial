@@ -1,1 +1,17 @@
 Chapter 2: Working with Tensors (page 21)
+
+1. What is the difference between a shape of [5, 1] and a shape of [5]?
+They have different ranks, the first one is two dimensional and the second one is one dimensional.
+
+2. Which function would you use to create a tensor filled with random numbers?
+tensor = torch.rand(2, 2)
+
+3. If you have a tensor of dtype = torch.int64 and another of dtype = torch.float32, can you add them together directly? Why or why not?
+There would be an error and it wouldn't compile as different dtypes can't be multiplied together. 
+
+4. What is the result of torch.ones(2, 2) * 5?
+tensor([5.0, 5.0],
+       [5.0, 5.0])
+
+5. Why do we prefer float32 over other data types for training neural networks?
+This type gives the best balance between precision and speed. 
