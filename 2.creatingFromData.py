@@ -1,6 +1,6 @@
 # 1. Creating from Data (page 22)
 import torch
-
+'''
 # Creating a 1D tensor (Vector) from a list
 data = [1.0, 2.0, 3.0]
 my_tensor = torch.tensor(data)
@@ -63,3 +63,7 @@ resultA = tensor_x @ tensor_y
 
 print(f"Result shape: {result.shape}")
 print(f"Result: {result}\n ResultA: {resultA}")
+'''
+ones = torch.ones(2,2)
+ones = ones.to(torch.int32)
+print(ones * 5)
