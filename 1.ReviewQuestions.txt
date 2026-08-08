@@ -1,0 +1,17 @@
+1. What are the two main features that make PyTorch a "deep learning" library rather than just a math library?
+-Firstly, it has dynamic computational graphs which means that the network is built as the code is running. 
+-Secondly, due to the huge community and ecosystems that support it, new AI breakthroughs are released in PyTorch first. 
+
+2. What does it mean when we say PyTorch is "Pythonic"?
+It was written with python as its base language so that python users would find adapting to PyTorch easier. 
+
+3. In which scenario would PyTorch be a better choice than TensorFlow for a developer?
+If the researcher were working in Academia then it would be the better choice due for access to cutting edge research tools. 
+
+4. What is the purpose of checking torch.cuda.is_available()?
+Nvidia GPUs created CUDA which is more efficient for running PyTorch however it depends on how you are running PyTorch and for what purpose, as your cpu might suffice depending on functionality. 
+
+5. Name three real-world industries that currently utilize PyTorch for AI development?
+-AI industry uses Natural Language Processing(NLP) for OpenAI or Hugging Face
+-Auto industry uses Computer Vision for self-driving cars
+-Healthcare industry can sometimes uses random forest algorithms for early cancer detection (I am in the process of publishing a paper about this soon :) 
