@@ -1,9 +1,0 @@
-1. What is the main purpose of the Autograd engine in PyTorch?
-
-2. What does the requires_grad=True parameter do when creating a tensor?
-
-3. Which method do you call to start the gradient calculation process, and on which tensor do you typically call it?
-
-4. Why is it important to use torch.no_grad() when you are evaluating a model?
-
-5. What happens if you forget to zero out the gradients before calling .backward() inside a training loop?
