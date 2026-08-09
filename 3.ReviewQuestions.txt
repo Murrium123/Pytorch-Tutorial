@@ -1,10 +1,14 @@
 1. What is the difference between torch.cat and torch.stack?
+Concatenation joins tensors along an existing dimension whereas stacking joins tensors along a new dimension which is why there is a line gap between them. 
 
 2. If you have a tensor with 20 elements, which of these shapes are valid for reshaping: (4, 5), (2, 10), (3, 7)?
 (4, 5)
 
 3. How do you select only the third column of a 2D tensor named my_tensor?
+my_tensor[:,2]
 
 4. In the operation tensor.view(5, -1), what does the -1 represent?
+-1 is used because you let PyTorch do the math on how many dimensions it should have as you haven't figured it out.
 
-5. What happens to the memory when you convert a CPU tensor to a NumPy array using.numpy()?
+5. What happens to the memory when you convert a CPU tensor to a NumPy array using .numpy()?
+They will share the same memory so changing one will change the other. 
