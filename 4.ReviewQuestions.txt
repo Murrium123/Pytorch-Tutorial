@@ -1,10 +1,14 @@
 1. What is the main purpose of the Autograd engine in PyTorch?
+Automatic Differentiation - It keeps a record of every computation you do and then works backwards to figure out the gradient. 
 
 2. What does the requires_grad=True parameter do when creating a tensor?
+Creates a tensor that we want to track.
 
 3. Which method do you call to start the gradient calculation process, and on which tensor do you typically call it?
+.backward() is the method and it is usually used on the last output tensor.
 
 4. Why is it important to use torch.no_grad() when you are evaluating a model?
+It is important because you do not want the model to track it while it is being evaluated. 
 
 5. What happens if you forget to zero out the gradients before calling .backward() inside a training loop?
-
+The training will fail. 
