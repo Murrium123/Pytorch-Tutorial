@@ -1,10 +1,14 @@
 1. What is the purpose of the super().__init__() call in a custom model class?
+This is where you define the architecture of the model where you decide how many layers(input, hidden, ouput) there are.
 
 2. If the first layer of your model is nn.Linear(28, 64), what must be the in_features of the second linear layer?
+64
 
 3. What happens to a negative number when it passes through a ReLU activation function?
+It turns into zero.
 
 4. Why is it better to inherit from nn.Module rather than just writing a standard Python class for your model?
+This is a base class that gives you the ability to track your own parameters and move easily between the cpu and gpu.
 
 5. What is the difference between defining a layer in __init__ and using it in forward?
-
+__init__ defines layers and forward decides how data is supposed to move between those layers. 
