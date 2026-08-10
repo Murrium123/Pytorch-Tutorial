@@ -1,0 +1,10 @@
+1. What is the purpose of the super().__init__() call in a custom model class?
+
+2. If the first layer of your model is nn.Linear(28, 64), what must be the in_features of the second linear layer?
+
+3. What happens to a negative number when it passes through a ReLU activation function?
+
+4. Why is it better to inherit from nn.Module rather than just writing a standard Python class for your model?
+
+5. What is the difference between defining a layer in __init__ and using it in forward?
+
