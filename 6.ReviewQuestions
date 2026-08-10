@@ -1,0 +1,9 @@
+1. If a model's loss is increasing over time instead of decreasing what might be wrong with the learning rate?
+
+2. Why is it important to call optimizer.zero_grad() at the beginning of each training step?
+
+3. Which loss function would you choose if you were building a model to predict the temperature for tomorrow?
+
+4. What is the difference between loss.backwards() and optimizer.step()?
+
+5. Why should you use loss.item() instead of just loss when apppending to a list of metrics?
