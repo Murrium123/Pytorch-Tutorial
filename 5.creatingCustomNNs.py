@@ -8,7 +8,7 @@ class SimpleNet(nn.Module):
     def __init__(self):
         super(SimpleNet, self).__init__()
         # Define layers here
-        self.layer1 = nn.Linear(in_features=10, out_features=5)
+        self.layer1 = nn.Linear(in_features=10, out_features=5) # nn.Linear uses the equation y = xW^T + b (W = Weights // b = bias)
         self.layer2 = nn.Linear(in_features=5, out_features=1)
 
     def forward(self, x):
