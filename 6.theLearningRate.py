@@ -7,3 +7,4 @@ print(f"model = {model}")
 
 # Create an optimizer (Adam) and give it the model's parameters
 optimizer = optim.Adam(model.parameters(), lr = 0.001)
+print(f"optimizer = {optimizer}")
