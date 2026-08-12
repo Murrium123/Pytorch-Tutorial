@@ -8,7 +8,7 @@ print(f"\nCommon Loss Functions\n")
 criterion_mse = nn.MSELoss()
 
 prediction = torch.tensor([10.0]) # Model predicts 10
-target = torch.tensor([15.0]) # Truth is 15
+target = torch.tensor([14.0]) # Truth is 14
 
 loss = criterion_mse(prediction, target)
 print(f"MSE Loss: {loss.item()}") # (15-10)^2 = 25
