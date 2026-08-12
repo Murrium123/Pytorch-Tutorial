@@ -1,4 +1,5 @@
 import torch.optim as optim
+import torch.nn as nn
 
 print(f"\nThe Learning Rate\n")
 # Assuming 'model' is a neural network we created
