@@ -2,11 +2,13 @@
 The dataset holds the data, the dataloader figures out how to navigate the data effectively.
 
 2. Why is it usually a bad idea to use a batch size of 1 (the entire dataset) or the full dataset at once?
-
+We could run out of memory. 
 
 3. Which method in a custom Dataset class is responsible for fetching a single sample and its label?
+TensorDataset
 
 4. Why should we set shuffle=True for our training data but shuffle=False for our testing data?
+We want our training data to get shuffled because we want variety for training but our testing data is the final product that is showing if the training that we did is effective so it should be the same. We can also reuse our test data to show how it compares to other models so it would need to remain the same in order for the comparison to be accurate. 
 
 5. What happens to the remaining data if your total number of samples is not perfectly divisible by the batch size?
-  
+It can cause errors. 
