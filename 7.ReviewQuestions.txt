@@ -1,6 +1,8 @@
 1. Explain the difference between a Dataset and a Dataloader.
+The dataset holds the data, the dataloader figures out how to navigate the data effectively.
 
 2. Why is it usually a bad idea to use a batch size of 1 (the entire dataset) or the full dataset at once?
+
 
 3. Which method in a custom Dataset class is responsible for fetching a single sample and its label?
 
