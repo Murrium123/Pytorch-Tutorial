@@ -48,6 +48,8 @@ train_loader = DL(
     num_workers=2 # Uses 2 background processes to Load data
 )
 print(f"train_loader = {train_loader}")
+
+# This crashed, but I cannot figure out why. 
 #for batch_idx, (batch_features, batch_labels) in enumerate(train_loader):
     #print(f"Batch: {batch_idx + 1}")
     #print(f"Features shape: {batch_features.shape}") # Should be [32, 5]
