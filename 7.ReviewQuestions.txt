@@ -1,0 +1,10 @@
+1. Explain the difference between a Dataset and a Dataloader.
+
+2. Why is it usually a bad idea to use a batch size of 1 (the entire dataset) or the full dataset at once?
+
+3. Which method in a custom Dataset class is responsible for fetching a single sample and its label?
+
+4. Why should we set shuffle=True for our training data but shuffle=False for our testing data?
+
+5. What happens to the remaining data if your total number of samples is not perfectly divisible by the batch size?
+  
