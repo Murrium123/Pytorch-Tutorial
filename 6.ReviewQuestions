@@ -1,9 +1,14 @@
 1. If a model's loss is increasing over time instead of decreasing what might be wrong with the learning rate?
+The learning rate might be too hard. 
 
 2. Why is it important to call optimizer.zero_grad() at the beginning of each training step?
+It needs to clear the old gradients so that each training step can start anew and not snowball previous gradients. 
 
 3. Which loss function would you choose if you were building a model to predict the temperature for tomorrow?
+Adam because it automatically adjusts the learning rate as it trains. 
 
-4. What is the difference between loss.backwards() and optimizer.step()?
+4. What is the difference between loss.backward() and optimizer.step()?
+loss.backward measures the difference between the target and the predictions whereas the optimizer.step updates the weights. 
 
 5. Why should you use loss.item() instead of just loss when apppending to a list of metrics?
+loss.item() is specific and will save exactly what you will request but if you do just loss then it will take the entire computational graph in memory which will crash the computer.
