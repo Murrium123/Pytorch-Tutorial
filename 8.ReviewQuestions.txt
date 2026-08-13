@@ -1,0 +1,14 @@
+1. What is the difference between an epoch and an iteration (batch)?
+
+
+2. Why do we need a separate "Test Set" that the model never sees during training?
+
+
+3. Which PyTorch command performs the actual update of the model's weights?
+
+
+4. If your training loss 0.01 but your test accuracy is only 50%, what phenomenon is likely occuring?
+
+
+5. What does torch.max(outputs.data, 1) do in the context of a classification problem?
+
