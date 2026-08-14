@@ -23,7 +23,7 @@ print(f"\nWriting the Training Loop\n")
 # Define a simple model
 model = nn.Sequential(
   nn.Linear(2, 10),
-  nn.Relu(),
+  nn.ReLU(),
   nn.Linear(10,2) # 2 output classes (0 and 1)
 )
 
