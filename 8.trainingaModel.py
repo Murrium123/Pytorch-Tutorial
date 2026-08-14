@@ -75,4 +75,4 @@ with torch.no_grad():
     correct += (predicted == targets).sum().item()
 
 accuracy = 100 * correct / total
-print(f"Accuracy on the 200 test samples: {accuracy;.2f}%")
+print(f"Accuracy on the 200 test samples: {accuracy:.2f}%")
