@@ -1,14 +1,14 @@
 1. What is the difference between an epoch and an iteration (batch)?
-
+The epoch goes through the entire database every time, the batch goes through a sample and is able to make quick decisions about the weights. 
 
 2. Why do we need a separate "Test Set" that the model never sees during training?
-
+So that's its brand new information and its fresh so when it gets tested, its a truer evaluation of the model.
 
 3. Which PyTorch command performs the actual update of the model's weights?
+optimizer.step()
 
-
-4. If your training loss 0.01 but your test accuracy is only 50%, what phenomenon is likely occuring?
-
+4. If your training loss 0.01 but your test accuracy is only 50%, what phenomenon is likely occurring?
+Its overfitting.
 
 5. What does torch.max(outputs.data, 1) do in the context of a classification problem?
-
+It's reducing the dimension. 
