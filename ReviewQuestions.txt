@@ -1,0 +1,9 @@
+1. What is the difference between a state_dict and a checkpoint?
+
+2. Why do you need to define the model class in your code before loading a saved state_dict?
+
+3. What happens if you try to load a state_dict into a model with a different number of layers?
+
+4. How do you load a model that was saved on a GPU if your current computer only has a GPU?
+
+5. Why is it important to call model.eval() after loading a model for testing?
