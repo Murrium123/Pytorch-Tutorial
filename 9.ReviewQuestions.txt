@@ -6,10 +6,10 @@ On the other hand, a checkpoint allows for epoch number, optimizer's state and w
 The state_dict depends on the model class already being defined in order to save values. 
 
 3. What happens if you try to load a state_dict into a model with a different number of layers?
-
+Loading will fail.
 
 4. How do you load a model that was saved on a GPU if your current computer only has a GPU?
-
+Specify the device during loading.
 
 5. Why is it important to call model.eval() after loading a model for testing?
-
+To make sure that layers like Dropout or Batch Normalization behave normally. 
