@@ -1,9 +1,15 @@
 1. What is the difference between a state_dict and a checkpoint?
+A state_dict saves the current weights and biases of each layer but it doesn't have the knowledge of the model's structure.
+On the other hand, a checkpoint allows for epoch number, optimizer's state and weights. 
 
 2. Why do you need to define the model class in your code before loading a saved state_dict?
+The state_dict depends on the model class already being defined in order to save values. 
 
 3. What happens if you try to load a state_dict into a model with a different number of layers?
 
+
 4. How do you load a model that was saved on a GPU if your current computer only has a GPU?
 
+
 5. Why is it important to call model.eval() after loading a model for testing?
+
