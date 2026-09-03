@@ -1,9 +1,14 @@
 1. What is the shape of a standard color image tensor in PyTorch (Channels, Height, Width)?
-Channels, Height, Width = (, , )
+Channels, Height, Width = (3, 256, 256)
+
 2. Why do we need transforms.ToTensor() when working with images?
+We need transforms.ToTensor() when working with images so that it is converted to a format that the model can process. 
 
 3. What does the nn.Flatten() layer do to an image of shape(1, 28, 28)? 
+nn.Flatten() converts 2D data into 1D data.
 
 4. Why is normalization important for pixel data?
+Neural networks always struggle with large data, normalization helps to find the best weight values. 
 
 5. What library would you use to download the MNIST dataset quickly?
+torchvision.datasets
